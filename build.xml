@@ -9,6 +9,6 @@
     </taskdef>
 
     <target name="deploy">
-        <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src"/>
+        <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="force-app/main/default"/>
     </target>
 </project>
